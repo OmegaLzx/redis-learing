@@ -1,0 +1,7 @@
+masterSlaveServersConfig:
+  readMode: "SLAVE"
+  slaveAddresses:
+    - "redis://127.0.0.1:7001"
+    - "redis://127.0.0.1:7002"
+  masterAddress: "redis://127.0.0.1:7000"
+  database: 0
